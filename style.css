@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/Header\ Background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.72;
+    background-color: black;
+}
+nav{
+    width: 75vw;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    color: rgb(255, 0, 0);
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.HeroText{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: calc(100% - 60px);
+    padding: 0 30px;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.HeroText> :first-child{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+}
+.HeroText> :nth-child(2){
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.HeroText> :nth-child(3){
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sectionline{
+    height: 7px;
+    background-color: rgb(49, 49, 49);
+}
+.button{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.Sign{
+    background-color: red;
+    color: white;
+}
+.started{
+    color: white;
+    background-color: red;
+}
